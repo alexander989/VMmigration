@@ -66,37 +66,36 @@
         </repeat>
     </movement>
     <movement id="8">
-      <!-- straight down45  curveup 270 then 0straight -->
-           <set angle="0"/>
-           <forward d="50"/>
-           <turn angle="45"/>
-           <forward d="50"/>
-           <turn angle="270"/>
-            <forward d="50"/>
-            <turn angle="45"/>
-            <forward d="50"/>
+          <!-- straight down45  curveup 270 then 0straight -->
+                    <set angle="0"/>
+                     <forward d="50"/>
+                     <turn angle="45"/>
+                     <forward d="50"/>
+                     <turn angle="270"/>
+                     <forward d="50"/>
+                     <turn angle="45"/>
+                    <forward d="50"/>
     </movement>
         <movement id="9">
-        <!-- straight  down45 Horizental2 times  -->
-        <set angle="0"/>
-        <forward d="50"/>
-         <turn angle="45"/>
-         <forward d="50"/>   
-         <turn angle="315"/>
-         <forward d="50"/>
-
-         <forward d="50"/>   
+          <!-- straight  down45 Horizental2 times  -->
+                    <set angle="0"/>
+                    <forward d="50"/>
+                    <turn angle="45"/>
+                    <forward d="50"/>   
+                    <turn angle="315"/>
+                    <forward d="50"/>
+                    <forward d="50"/>   
     </movement>
     
     <movement id="10">
         <!-- straight donw45 down vertical twice-->
-        <set angle="0"/>
-        <forward d="50"/>
-         <turn angle="45"/>
-         <forward d="50"/>   
-         <turn angle="45"/>
-         <forward d="50"/>
-         <forward d="50"/>   
+                    <set angle="0"/>
+                    <forward d="50"/>
+                    <turn angle="45"/>
+                    <forward d="50"/>   
+                    <turn angle="45"/>
+                    <forward d="50"/>
+                    <forward d="50"/>   
     </movement>
 
 </movements>
